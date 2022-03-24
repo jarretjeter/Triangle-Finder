@@ -1,16 +1,10 @@
 $(document).ready(function() {
-  
-  $("h1").click(function() {
-    alert("This is a heading.");
-  });
-
-  $("p").click(function() {
-    alert("This is a paragraph.");
-  });
-
-  $("img").click(function() {
-    alert("This is an image.");
-  });
+  $("form#triangle").submit(function(event) {
+  event.preventDefault();
+  const valueOne = parseInt($("#value1").val());
+  const valueTwo = parseInt($("#value2").val());
+  const valueThree = parseInt($("#value3").val());
+});
 });
 
 
